@@ -1,0 +1,4 @@
+#Thu May 13 02:35:21 IST 2021
+base.0=D\:\\Android Projects\\Super Mario Clone\\android\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

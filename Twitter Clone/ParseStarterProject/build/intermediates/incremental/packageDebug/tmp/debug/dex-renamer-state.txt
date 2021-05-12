@@ -1,0 +1,10 @@
+#Thu May 13 02:40:06 IST 2021
+path.2=classes2.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=D\:\\Android Projects\\Twitter Clone\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+base.1=D\:\\Android Projects\\Twitter Clone\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+base.0=D\:\\Android Projects\\Twitter Clone\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\0

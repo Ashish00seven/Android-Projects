@@ -1,0 +1,5 @@
+com/example/appbrainteaser/BuildConfig.java
+ com.example.appbrainteaser.BuildConfig
+com/example/appbrainteaser/MainActivity.java
+ com.example.appbrainteaser.MainActivity
+ com.example.appbrainteaser.MainActivity$1

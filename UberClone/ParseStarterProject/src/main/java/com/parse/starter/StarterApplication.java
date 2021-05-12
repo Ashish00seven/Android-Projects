@@ -1,0 +1,56 @@
+package com.parse.starter;
+
+import android.app.Application;
+import android.util.Log;
+
+import com.parse.Parse;
+import com.parse.ParseACL;
+import com.parse.ParseException;
+import com.parse.ParseObject;
+import com.parse.ParseUser;
+import com.parse.SaveCallback;
+
+
+public class StarterApplication extends Application {
+
+  @Override
+  public void onCreate() {
+    super.onCreate();
+
+    // Enable Local Datastore.
+    Parse.enableLocalDatastore(this);
+
+    // Add your initialization code here
+    Parse.initialize(new Parse.Configuration.Builder(getApplicationContext())
+            .applicationId("eb1919a556c8c91f3d17ff70c025c6ba76d19cc9")
+            .clientKey("5309c5ac267d21cd5d33e3640e02abd2d2ea571b")
+            .server("http://18.219.211.105:80/parse/")
+            .build()
+    );
+
+    /*
+    ParseObject object = new ParseObject("ExampleObject");
+    object.put("myNumber", "123");
+    object.put("myString", "rob");
+
+    object.saveInBackground(new SaveCallback () {
+      @Override
+      public void done(ParseException ex) {
+        if (ex == null) {
+          Log.i("Parse Result", "Successful!");
+        } else {
+          Log.i("Parse Result", "Failed" + ex.toString());
+        }
+      }
+    });
+
+    ParseUser.enableAutomaticUser();
+    */
+
+    ParseACL defaultACL = new ParseACL();
+    defaultACL.setPublicReadAccess(true);
+    defaultACL.setPublicWriteAccess(true);
+    ParseACL.setDefaultACL(defaultACL, true);
+
+  }
+}

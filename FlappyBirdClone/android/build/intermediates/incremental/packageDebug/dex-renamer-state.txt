@@ -1,0 +1,7 @@
+#Tue Sep 20 17:22:05 BST 2016
+base.0=/Users/robpercival/Downloads/android_oldprojects/FlappyBird/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_665e5fbcdf8db180648db0354adce6d424b519cb
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/robpercival/Downloads/android_oldprojects/FlappyBird/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f2f66ddac9783b728ffdd0a1f9323bac2c9e9de8/classes.dex
+base.1=/Users/robpercival/Downloads/android_oldprojects/FlappyBird/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f2f66ddac9783b728ffdd0a1f9323bac2c9e9de8
+file.0=/Users/robpercival/Downloads/android_oldprojects/FlappyBird/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_665e5fbcdf8db180648db0354adce6d424b519cb/classes.dex
